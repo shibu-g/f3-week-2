@@ -1,0 +1,131 @@
+.main{
+display: flex;
+flex-direction: column;
+gap:10px;
+margin-left: 20px;
+margin-top: 10px;
+}
+.tag{
+    font-size: 25px;
+    font-weight: 600;
+}
+.welcome{
+    font-size: 34px;
+    margin-left: 30%;
+
+}
+.btn{
+    border: 2px solid black;
+    width: 130px;
+    padding: 2px;;
+    border-radius: 10px;
+    color:white;
+    background-color: black;
+    cursor: pointer;
+   margin-left: 40%;;
+}
+.btn:hover{
+    color: blue;
+}
+.item{
+    width: 300px;
+    box-shadow: 0 2px 2px 3px gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    gap: 10px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.id{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.userid{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.items{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.products{
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.body{
+    display: flex;
+     justify-content: space-between; 
+}
+.offerandprice{
+    display: flex;
+    gap: 8px;
+}
+.prodocttop{
+    display: flex;
+     justify-content: space-between; 
+    margin-bottom: 5px;
+ 
+}
+.productinfo{
+     display: flex;
+    gap: 5px;
+}
+.discription{
+    max-width: 200px;
+    
+}
+.bottomimages{
+    display: flex;
+    gap: 10px;
+    overflow: scroll;
+}
+.product{
+     width: 350px;
+     margin: 15px;
+     box-shadow: 0 2px 2px 3px gray;
+     padding: 10px;
+}
+table{
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 100%;
+    overflow: scroll;
+}
+table tr{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    text-align: center;
+
+}
+
+table th,td{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.col{
+    border: 1px solid white;
+}
+.visible{
+visibility: visible;
+}
+.hide{
+visibility: hidden;
+}
